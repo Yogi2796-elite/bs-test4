@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bs-test4
+  annotations:
+    github.com/project-slug: Yogi2796-elite/bs-test4
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
