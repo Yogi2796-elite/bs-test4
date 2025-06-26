@@ -8,3 +8,7 @@ spec:
   type: other
   lifecycle: unknown
   owner: guests
+
+location:
+  - type: file
+    target: ./values.yaml
