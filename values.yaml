@@ -1,4 +1,21 @@
-environment:
-  KAFKA_BOOTSTRAP_SERVER: test server
-  RUST_LOG: debug
-  opentelemetry_sdk: warn  MAX_PAYLOAD_SIZE: 1900
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: calix API
+  description: The calix API Desc
+  tags:
+    - Network
+    - API
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: team-c
+  definition:
+    $text: ./petstore.oas.yaml
