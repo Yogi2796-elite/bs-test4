@@ -8,8 +8,5 @@ spec:
   type: other
   lifecycle: unknown
   owner: guests
-
-locations:
-  # Local example data, file locations are relative to the backend process, typically `packages/backend`
-  - type: url
-    target: ./values.yaml
+  targets:
+    - ./values.yaml
