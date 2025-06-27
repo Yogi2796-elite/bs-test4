@@ -1,7 +1,17 @@
 # bs-demo-service
 
-Welcome to the documentation for the `bs-demo-service`.
+Welcome to the documentation for the demo Backstage service.
 
 ## Overview
 
-This service handles demo features and is used for illustrating Backstage.
+This project demonstrates how to use:
+
+- Component linking
+- API relationships
+- Dependencies
+- TechDocs integration
+- CI/CD annotations
+
+## Architecture
+
+The service runs on Node.js and connects to a shared PostgreSQL instance.

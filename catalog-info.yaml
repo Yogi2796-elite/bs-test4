@@ -1,16 +1,16 @@
 apiVersion: backstage.io/v1alpha1
-kind: Location
+kind: Component
 metadata:
   name: bs-test4
-  description: A sample demo service covering all Backstage sections
+  description: A sample service demonstrating full Backstage catalog features.
   tags:
     - nodejs
     - demo
   annotations:
     github.com/project-slug: yogi2796-elite/bs-test4
     backstage.io/techdocs-ref: dir:.
-    backstage.io/kubernetes-id: bs-demo-service
-    circleci.com/project-slug: github/yogi2796-elite/bs-demo-service
+    circleci.com/project-slug: github/yogi2796-elite/bs-test4
+    backstage.io/kubernetes-id: bs-test4
 spec:
   type: service
   lifecycle: production
