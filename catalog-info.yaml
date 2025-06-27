@@ -1,12 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: bs-test4
-  annotations:
-    github.com/project-slug: Yogi2796-elite/bs-test4
+  name: example-apis
+  description: A collection of all Backstage example APIs
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
   targets:
     - ./values.yaml
