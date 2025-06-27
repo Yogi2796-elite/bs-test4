@@ -1,5 +1,5 @@
 site_name: bs-test4
 nav:
-  - Home: index.md
+  - Home: docs/index.md
 plugins:
   - techdocs-core
