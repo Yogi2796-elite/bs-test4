@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: calix API
+  name: calix-api
   description: The calix API Desc
   tags:
     - Network
@@ -17,3 +17,4 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: team-c
+  definition: https://raw.githubusercontent.com/swagger-api/swagger-petstore/master/src/main/resources/openapi.yaml
