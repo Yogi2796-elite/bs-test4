@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: demo-system
+  description: A logical system grouping related services
+spec:
+  owner: guests

@@ -2,13 +2,23 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: bs-test4
+  description: A sample demo service covering all Backstage sections
+  tags:
+    - nodejs
+    - demo
   annotations:
-    github.com/project-slug: Yogi2796-elite/bs-test4
+    github.com/project-slug: yogi2796-elite/bs-test4
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: bs-demo-service
+    circleci.com/project-slug: github/yogi2796-elite/bs-demo-service
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: production
   owner: guests
-
-location:
-  - type: file
-    target: ./values.yaml
+  system: demo-system
+  providesApis:
+    - demo-api
+  consumesApis:
+    - calix-api
+  dependsOn:
+    - resource:default/postgres-db

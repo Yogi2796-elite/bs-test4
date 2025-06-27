@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: demo-api
+  description: Public REST API for the bs-demo-service
+spec:
+  type: openapi
+  lifecycle: production
+  owner: guests
+  definition: https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/petstore.yaml

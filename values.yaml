@@ -1,4 +1,0 @@
-environment:
-  KAFKA_BOOTSTRAP_SERVER: test server
-  RUST_LOG: debug
-  opentelemetry_sdk: warn  MAX_PAYLOAD_SIZE: 1900
