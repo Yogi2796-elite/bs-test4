@@ -14,7 +14,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: guests
+  owner: team-a
   system: demo-system
   providesApis:
     - demo-api
