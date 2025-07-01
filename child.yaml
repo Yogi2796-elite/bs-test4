@@ -1,10 +1,11 @@
+# repo-2/catalog-info.yaml (child)
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: internal-lib-a
-  description: Internal library A used by main-service
+  name: child-service
+  description: This is the child service
 spec:
-  type: library
+  type: service
   lifecycle: production
   owner: team-a
-  subcomponentOf: bs-test4
+  subcomponentOf: parent-service
